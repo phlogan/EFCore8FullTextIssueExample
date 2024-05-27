@@ -36,7 +36,7 @@ namespace EFCore8FullTextIssueExample
 
             using (var db = new FullTextExampleDataContext())
             {
-                var search = "duct";
+                var search = "Product";
 
                 var example1 = db.Products.Where(e => EF.Functions.FreeText(e.Name, search));
                 var example1QueryString = example1.ToQueryString();
