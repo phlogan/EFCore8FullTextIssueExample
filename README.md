@@ -1,5 +1,5 @@
 # Full Text and Global Query Filters - Issue with Entity Framework Core 8
-This project is related to the [issue 32708  from Entity Framework Core](https://github.com/dotnet/efcore/issues/32708).
+This project is related to the [issue 33799  from Entity Framework Core](https://github.com/dotnet/efcore/issues/33799).
 
 ## Context
 When searching for a Product in the database, the EF Core, which uses Global Query Filters, can't apply Full-text features in a specific case (described in the issue).
